@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FC674C20C0DB44007562D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC674B20C0DB44007562D3 /* AppDelegate.swift */; };
+		11FC674E20C0DB44007562D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC674D20C0DB44007562D3 /* ViewController.swift */; };
+		11FC675020C0DB45007562D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FC674F20C0DB45007562D3 /* Assets.xcassets */; };
+		11FC675320C0DB45007562D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FC675120C0DB45007562D3 /* Main.storyboard */; };
+		11FC675F20C0DB45007562D3 /* Pick_an_Op_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC675E20C0DB45007562D3 /* Pick_an_Op_MacTests.swift */; };
+		11FC676A20C0DB45007562D3 /* Pick_an_Op_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC676920C0DB45007562D3 /* Pick_an_Op_MacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11FC675B20C0DB45007562D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FC674020C0DB44007562D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FC674720C0DB44007562D3;
+			remoteInfo = "Pick an Op Mac";
+		};
+		11FC676620C0DB45007562D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FC674020C0DB44007562D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FC674720C0DB44007562D3;
+			remoteInfo = "Pick an Op Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FC674820C0DB44007562D3 /* Pick an Op Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick an Op Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FC674B20C0DB44007562D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11FC674D20C0DB44007562D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11FC674F20C0DB45007562D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11FC675220C0DB45007562D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11FC675420C0DB45007562D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FC675520C0DB45007562D3 /* Pick_an_Op_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pick_an_Op_Mac.entitlements; sourceTree = "<group>"; };
+		11FC675A20C0DB45007562D3 /* Pick an Op MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pick an Op MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FC675E20C0DB45007562D3 /* Pick_an_Op_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pick_an_Op_MacTests.swift; sourceTree = "<group>"; };
+		11FC676020C0DB45007562D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FC676520C0DB45007562D3 /* Pick an Op MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pick an Op MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FC676920C0DB45007562D3 /* Pick_an_Op_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pick_an_Op_MacUITests.swift; sourceTree = "<group>"; };
+		11FC676B20C0DB45007562D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FC674520C0DB44007562D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC675720C0DB45007562D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC676220C0DB45007562D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FC673F20C0DB44007562D3 = {
+			isa = PBXGroup;
+			children = (
+				11FC674A20C0DB44007562D3 /* Pick an Op Mac */,
+				11FC675D20C0DB45007562D3 /* Pick an Op MacTests */,
+				11FC676820C0DB45007562D3 /* Pick an Op MacUITests */,
+				11FC674920C0DB44007562D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11FC674920C0DB44007562D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FC674820C0DB44007562D3 /* Pick an Op Mac.app */,
+				11FC675A20C0DB45007562D3 /* Pick an Op MacTests.xctest */,
+				11FC676520C0DB45007562D3 /* Pick an Op MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FC674A20C0DB44007562D3 /* Pick an Op Mac */ = {
+			isa = PBXGroup;
+			children = (
+				11FC674B20C0DB44007562D3 /* AppDelegate.swift */,
+				11FC674D20C0DB44007562D3 /* ViewController.swift */,
+				11FC674F20C0DB45007562D3 /* Assets.xcassets */,
+				11FC675120C0DB45007562D3 /* Main.storyboard */,
+				11FC675420C0DB45007562D3 /* Info.plist */,
+				11FC675520C0DB45007562D3 /* Pick_an_Op_Mac.entitlements */,
+			);
+			path = "Pick an Op Mac";
+			sourceTree = "<group>";
+		};
+		11FC675D20C0DB45007562D3 /* Pick an Op MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				11FC675E20C0DB45007562D3 /* Pick_an_Op_MacTests.swift */,
+				11FC676020C0DB45007562D3 /* Info.plist */,
+			);
+			path = "Pick an Op MacTests";
+			sourceTree = "<group>";
+		};
+		11FC676820C0DB45007562D3 /* Pick an Op MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11FC676920C0DB45007562D3 /* Pick_an_Op_MacUITests.swift */,
+				11FC676B20C0DB45007562D3 /* Info.plist */,
+			);
+			path = "Pick an Op MacUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FC674720C0DB44007562D3 /* Pick an Op Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FC676E20C0DB45007562D3 /* Build configuration list for PBXNativeTarget "Pick an Op Mac" */;
+			buildPhases = (
+				11FC674420C0DB44007562D3 /* Sources */,
+				11FC674520C0DB44007562D3 /* Frameworks */,
+				11FC674620C0DB44007562D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pick an Op Mac";
+			productName = "Pick an Op Mac";
+			productReference = 11FC674820C0DB44007562D3 /* Pick an Op Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11FC675920C0DB45007562D3 /* Pick an Op MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FC677120C0DB45007562D3 /* Build configuration list for PBXNativeTarget "Pick an Op MacTests" */;
+			buildPhases = (
+				11FC675620C0DB45007562D3 /* Sources */,
+				11FC675720C0DB45007562D3 /* Frameworks */,
+				11FC675820C0DB45007562D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FC675C20C0DB45007562D3 /* PBXTargetDependency */,
+			);
+			name = "Pick an Op MacTests";
+			productName = "Pick an Op MacTests";
+			productReference = 11FC675A20C0DB45007562D3 /* Pick an Op MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11FC676420C0DB45007562D3 /* Pick an Op MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FC677420C0DB45007562D3 /* Build configuration list for PBXNativeTarget "Pick an Op MacUITests" */;
+			buildPhases = (
+				11FC676120C0DB45007562D3 /* Sources */,
+				11FC676220C0DB45007562D3 /* Frameworks */,
+				11FC676320C0DB45007562D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FC676720C0DB45007562D3 /* PBXTargetDependency */,
+			);
+			name = "Pick an Op MacUITests";
+			productName = "Pick an Op MacUITests";
+			productReference = 11FC676520C0DB45007562D3 /* Pick an Op MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FC674020C0DB44007562D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Justin Krysinski";
+				TargetAttributes = {
+					11FC674720C0DB44007562D3 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					11FC675920C0DB45007562D3 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 11FC674720C0DB44007562D3;
+					};
+					11FC676420C0DB45007562D3 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 11FC674720C0DB44007562D3;
+					};
+				};
+			};
+			buildConfigurationList = 11FC674320C0DB44007562D3 /* Build configuration list for PBXProject "Pick an Op Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11FC673F20C0DB44007562D3;
+			productRefGroup = 11FC674920C0DB44007562D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FC674720C0DB44007562D3 /* Pick an Op Mac */,
+				11FC675920C0DB45007562D3 /* Pick an Op MacTests */,
+				11FC676420C0DB45007562D3 /* Pick an Op MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FC674620C0DB44007562D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC675020C0DB45007562D3 /* Assets.xcassets in Resources */,
+				11FC675320C0DB45007562D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC675820C0DB45007562D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC676320C0DB45007562D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FC674420C0DB44007562D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC674E20C0DB44007562D3 /* ViewController.swift in Sources */,
+				11FC674C20C0DB44007562D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC675620C0DB45007562D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC675F20C0DB45007562D3 /* Pick_an_Op_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FC676120C0DB45007562D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FC676A20C0DB45007562D3 /* Pick_an_Op_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11FC675C20C0DB45007562D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FC674720C0DB44007562D3 /* Pick an Op Mac */;
+			targetProxy = 11FC675B20C0DB45007562D3 /* PBXContainerItemProxy */;
+		};
+		11FC676720C0DB45007562D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FC674720C0DB44007562D3 /* Pick an Op Mac */;
+			targetProxy = 11FC676620C0DB45007562D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11FC675120C0DB45007562D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FC675220C0DB45007562D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FC676C20C0DB45007562D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11FC676D20C0DB45007562D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		11FC676F20C0DB45007562D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pick an Op Mac/Pick_an_Op_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AE774PWJ85;
+				INFOPLIST_FILE = "Pick an Op Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkrysinski.Pick-an-Op-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		11FC677020C0DB45007562D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Pick an Op Mac/Pick_an_Op_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AE774PWJ85;
+				INFOPLIST_FILE = "Pick an Op Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkrysinski.Pick-an-Op-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		11FC677220C0DB45007562D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AE774PWJ85;
+				INFOPLIST_FILE = "Pick an Op MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkrysinski.Pick-an-Op-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pick an Op Mac.app/Contents/MacOS/Pick an Op Mac";
+			};
+			name = Debug;
+		};
+		11FC677320C0DB45007562D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AE774PWJ85;
+				INFOPLIST_FILE = "Pick an Op MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkrysinski.Pick-an-Op-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pick an Op Mac.app/Contents/MacOS/Pick an Op Mac";
+			};
+			name = Release;
+		};
+		11FC677520C0DB45007562D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AE774PWJ85;
+				INFOPLIST_FILE = "Pick an Op MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkrysinski.Pick-an-Op-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Pick an Op Mac";
+			};
+			name = Debug;
+		};
+		11FC677620C0DB45007562D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AE774PWJ85;
+				INFOPLIST_FILE = "Pick an Op MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "justinkrysinski.Pick-an-Op-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Pick an Op Mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FC674320C0DB44007562D3 /* Build configuration list for PBXProject "Pick an Op Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FC676C20C0DB45007562D3 /* Debug */,
+				11FC676D20C0DB45007562D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FC676E20C0DB45007562D3 /* Build configuration list for PBXNativeTarget "Pick an Op Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FC676F20C0DB45007562D3 /* Debug */,
+				11FC677020C0DB45007562D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FC677120C0DB45007562D3 /* Build configuration list for PBXNativeTarget "Pick an Op MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FC677220C0DB45007562D3 /* Debug */,
+				11FC677320C0DB45007562D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FC677420C0DB45007562D3 /* Build configuration list for PBXNativeTarget "Pick an Op MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FC677520C0DB45007562D3 /* Debug */,
+				11FC677620C0DB45007562D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FC674020C0DB44007562D3 /* Project object */;
+}
