@@ -122,13 +122,13 @@
                                     <constraint firstAttribute="width" constant="139" id="tKz-Po-vnk"/>
                                 </constraints>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" id="mTu-rQ-MNu">
-                                    <font key="font" metaFont="system"/>
+                                    <font key="font" metaFont="system" size="28"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JE4-Tc-wYW">
-                                <rect key="frame" x="539" y="284" width="143" height="40"/>
+                                <rect key="frame" x="539" y="287" width="143" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="139" id="9CC-Zg-7xc"/>
                                     <constraint firstAttribute="height" constant="40" id="FYp-3F-VoG"/>
